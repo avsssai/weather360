@@ -1,0 +1,18 @@
+.container{
+    position: relative;
+
+}
+#weather-info{
+    position: relative;
+    top: 100px;
+
+}
+#input{
+    position: relative;
+    top: 50px;
+}
+#button{
+    position: relative;
+    top: 50px;
+
+}
