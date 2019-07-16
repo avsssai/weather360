@@ -69,6 +69,9 @@ class Weather extends React.Component{
     }
     handleSubmit(){
         var cityName = this.state.cityName;
+        if(cityName === ''){
+            return;
+        }
         this.getWeather(cityName);
         this.setState({cityName:''})
         
