@@ -12,12 +12,13 @@
     "react-dom": "^16.8.6",
     "react-fontawesome": "^1.6.1",
     "react-scripts": "3.0.1",
-    "homepage":"https://avsssai.github.io/weather-app/"
+    "homepage":"https://avsssai.github.io/weather360/"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -b master -d build",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
 
     "test": "react-scripts test",
     "eject": "react-scripts eject"
