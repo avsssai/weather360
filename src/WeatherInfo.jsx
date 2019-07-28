@@ -21,7 +21,7 @@ class WeatherInfo extends React.Component {
     }if(this.props.current.includes('rain')){
         icon = faCloudRain;
     }
-    if(this.props.current === 'Cloudy'){
+    if(this.props.current === ('Cloudy' || 'mist')){
         icon = faCloudSun;
     }
     if(this.props.current.includes('rain')){

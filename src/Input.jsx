@@ -20,7 +20,7 @@ class Input extends React.Component {
       <form onSubmit={this.handleSubmit}>
         <div className="input-group">
           <input
-            className='form-control'
+            className='form-control text-capitalize'
             id="input"
             type="text"
             placeholder="Enter the city name.."
